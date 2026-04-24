@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InteligencIA</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="encabezado-sitio">
+    <div class="encabezado-interno">
+      <div class="logotipo">
+        <img src="img/logo1.png" alt="Logo InteligencIA" class="logotipo-imagen" />
+        <span class="logotipo-texto">InteligencIA</span>
+      </div>
+      <button class="boton-hamburguesa" onclick="toggleMenu()">≡</button>
+      <nav class="navegacion-principal" id="navPrincipal">
+        <a href="#modelos" onclick="cerrarMenu()">Modelos</a>
+        <a href="#herramientas" onclick="cerrarMenu()">Herramientas</a>
+        <a href="#normas" onclick="cerrarMenu()">Buenas Practicas</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PORTADA CON SLIDER -->
+  <div class="contenedor-slider">
+    <ul class="slider-lista">
+      <li>
+        <img src="img/imagen1.jpeg" alt="Inteligencia Artificial" />
+      </li>
+      <li>
+        <img src="img/banner2.jpeg" alt="Banner IA 2" />
+      </li>
+      <li>
+        <img src="img/banner3.jpeg" alt="Banner IA 3" />
+      </li>
+    </ul>
+    <div class="slider-overlay"></div>
+    <div class="slider-contenido">
+      <h1>Explora el Universo de la Inteligencia Artificial</h1>
+      <p>Descubre por que los modelos, herramientas y entornos de IA son tan importantes para el futuro digital. Sumergete en el ecosistema que esta transformando la manera en que vivimos, trabajamos y creamos.</p>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="seccion-info" id="modelos">
+      <article class="texto-info">
+        <h2>Modelos de Lenguaje</h2>
+        <p>Si lo que buscas es una herramienta poderosa para generar texto, resumir documentos, traducir idiomas o escribir codigo, los modelos de lenguaje grande son tu mejor aliado. Hay tantas aplicaciones que te sera dificil elegir entre ellas: puedes crear contenido automaticamente, hacer preguntas complejas y recibir respuestas detalladas, o construir aplicaciones inteligentes desde cero.</p>
+        <div class="meta-info">
+          <div class="elemento-meta">
+            <span class="icono-meta">Actualizacion</span>
+            <p>Nuevas versiones disponibles cada trimestre con mejoras sustanciales.</p>
+          </div>
+          <div class="elemento-meta">
+            <span class="icono-meta">Ubicacion</span>
+            <div class="contenedor-mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.535292300066!2d-74.80708902423015!3d10.998406455058495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0acf181dd7%3A0x959c839834b7465c!2sCra.%2050%20%23%2072-126%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1775653838341!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="imagenes-info">
+        <figure class="imagen-principal">
+          <img src="img/imagen2.jpeg" alt="Modelo de lenguaje IA" />
+        </figure>
+        <div class="cuadricula-imagenes">
+          <figure>
+            <img src="img/imagen3.jpeg" alt="Red neuronal" />
+          </figure>
+          <figure>
+            <img src="img/imagen4.jpeg" alt="Procesamiento de datos" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-info invertida" id="herramientas">
+      <article class="texto-info">
+        <h2>Herramientas y Plataformas</h2>
+        <p>Tenemos que empezar por uno de los ecosistemas mas ricos de la tecnologia moderna. Las plataformas de IA combinan interfaces visuales con capacidades educativas, entornos de desarrollo y arquitecturas de vanguardia. Los frameworks, las APIs y los entornos de desarrollo integrado hacen de este campo uno de los mas innovadores del mundo tecnologico.</p>
+        <div class="meta-info">
+          <div class="elemento-meta">
+            <span class="icono-meta">Soporte</span>
+            <p>Disponible de lunes a domingo las 24 horas del dia.</p>
+          </div>
+          <div class="elemento-meta">
+            <span class="icono-meta">Ubicacion</span>
+            <div class="contenedor-mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.535292300066!2d-74.80708902423015!3d10.998406455058495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0acf181dd7%3A0x959c839834b7465c!2sCra.%2050%20%23%2072-126%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1775653838341!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="imagenes-info">
+        <figure class="imagen-principal">
+          <img src="img/imagen2.jpeg" alt="Plataforma de IA" />
+        </figure>
+        <div class="cuadricula-imagenes">
+          <figure>
+            <img src="img/imagen4.jpeg" alt="Interfaz de herramienta IA" />
+          </figure>
+          <figure>
+            <img src="img/imagen5.jpeg" alt="Dashboard de inteligencia artificial" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="seccion-normas" id="normas">
+    <div class="encabezado-normas">
+      <h2>Buenas Practicas de IA</h2>
+      <p>En el mundo de la inteligencia artificial nos encontramos con un gran numero de responsabilidades eticas y tecnicas. Estas practicas son especialmente importantes para garantizar la calidad, la seguridad y la confiabilidad de los sistemas que construimos.</p>
+      <p class="subtitulo-normas">Sin embargo, es importante tener en cuenta las normas para mantener el entorno digital en optimas condiciones y al servicio del bien comun.</p>
+    </div>
+    <div class="cuadricula-normas">
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Transparencia</div>
+        <h3>Ser transparente</h3>
+        <p>Explicar como funcionan los modelos y que datos utilizan para tomar decisiones.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Privacidad</div>
+        <h3>Proteger los datos</h3>
+        <p>No compartir informacion personal de usuarios sin consentimiento explicito.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Seguridad</div>
+        <h3>Seguir protocolos de seguridad</h3>
+        <p>Utilizar solo los canales y entornos aprobados para desplegar modelos en produccion.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Sin sesgo</div>
+        <h3>Evitar sesgos en los modelos</h3>
+        <p>Revisar y auditar regularmente los datos de entrenamiento para detectar discriminacion.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Creditos</div>
+        <h3>No copiar sin creditos</h3>
+        <p>Respetar los derechos de autor de los datasets, codigos y modelos preentrenados utilizados.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Control humano</div>
+        <h3>Mantener supervision humana</h3>
+        <p>Asegurarse de que siempre haya un humano responsable de las decisiones criticas del sistema.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Normas</div>
+        <h3>Respetar regulaciones</h3>
+        <p>Seguir las leyes y marcos normativos establecidos para garantizar el uso responsable de la IA.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Datos limpios</div>
+        <h3>No generar ruido de datos</h3>
+        <p>Mantener los sistemas optimizados y limpios para no afectar el rendimiento de los entornos compartidos.</p>
+      </div>
+      <div class="tarjeta-norma">
+        <div class="icono-norma">Energia</div>
+        <h3>Ser responsable con la energia</h3>
+        <p>Utilizar recursos computacionales de manera eficiente y reducir la huella de carbono de los modelos.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pie-pagina">
+    <div class="pie-interno">
+      <div class="pie-logotipo">
+        <img src="img/logo1.png" alt="Logo InteligencIA" />
+        <span>InteligencIA</span>
+      </div>
+      <p class="pie-derechos">2024 InteligencIA. Todos los derechos reservados.</p>
+      <div class="pie-redes">
+        <img src="img/gmail.png" alt="Gmail" width="150">
+        <img src="img/gorjeo.png" alt="Twitter" width="150">
+        <img src="img/whastapp.png" alt="WhatsApp" width="150">
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
